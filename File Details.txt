@@ -1,0 +1,6 @@
+login.html - main login
+add_details.php - Teacher student list
+get_profile.php - Student List
+test.php - change pass redirect
+update.php - change profile
+new_pass.php - change pass

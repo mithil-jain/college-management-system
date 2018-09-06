@@ -1,2 +1,2 @@
-# college-management-system
-Student-Teacher login page with all details
+# college-system
+Student-Teacher site for overall management of the sylabii over the term
