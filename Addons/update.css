@@ -1,0 +1,95 @@
+.newpass
+{
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: aquamarine;*/
+}
+.update
+{
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: aquamarine*/;
+}
+.pupdate
+{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:0;
+    color:#cca300/*,#ffcc00*/;
+    text-shadow: 1px 1px 1px white;
+    text-transform: uppercase;
+}
+hr.hratten
+{
+    width:30%;
+    margin:auto;
+    box-shadow: 1px 1px 1px white;
+}
+.tags {
+    float:left;
+    text-align: right;
+    padding:25px;
+    padding-top: 17px;
+    padding-right: 0px;
+    margin:30px;
+    margin-top:0px;
+    /*background-color: aquamarine;*/
+}
+.tags ul
+{
+    padding:0px;
+}
+.tags ul li
+{
+    font-family: cursive;
+    font-weight: bold;
+}
+.container {
+    text-align:left;
+    padding:25px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin:30px;
+    /*background-color:blueviolet;*/
+}
+.container ul
+{
+    padding:0px;
+}
+.container ul li
+{
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.container > form > input {
+  border-spacing: 5px;
+  padding: 10px;
+  float: left;
+}
+
+div.tags > ul > li, div.container > form > ul > li {
+	font-style: Georgia,serif;
+	font-size: 15px;
+  padding: 15px;
+}
+
+div.tags > ul, div.container > form > ul {
+  list-style-type: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+.l1 {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.l2 {
+  float: right;
+}

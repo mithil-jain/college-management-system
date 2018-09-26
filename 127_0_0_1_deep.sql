@@ -563,7 +563,7 @@ CREATE TABLE `profile` (
 -- Dumping data for table `profile`
 --
 
-INSERT INTO `profile` (`UserId`, `Fname`, `Lname`, `RegNo`, `Class`, `Division`, `RollNo`, `MobNo`, `Addr`, `Pass`, `S1`, `S1t`, `S2`, `S2t`, `S3`, `S3t`, `S4`, `S4t`, `S5`, `S5t`) VALUES
+INSERT INTO `profile` (`UserId`, `Fname`, `Lname`, `RegNo`, `Class`, `Division`, `RollNo`, `MobNo`, `Addr`, `Pass`, `S1`, `S1t`, `S2`, `S2t`, `S3`, `S3t`, `S4`, `S4t`  , `S5`, `S5t`) VALUES
 ('0', 'Admin', 'Admin', 0, '0', 0, 0, 0, '0', 'root', 0, 21, 0, 18, 0, 15, 0, 16, 0, 15),
 ('C2016CM1027', 'Mithil', 'Jain', 12935, 'TE', 4, 57, 9619020626, 'Borivali East Mumbai-400066', 'sakec', 15, 21, 10, 18, 11, 15, 14, 16, 12, 15),
 ('C2016EX1222', 'Milan', 'Odedra', 13075, 'TE', 1, 45, 7977304556, 'B 13,Vrindavan CHS,Kasturba, Borivali East', 'sakec', 13, 21, 12, 18, 10, 15, 11, 16, 10, 15),

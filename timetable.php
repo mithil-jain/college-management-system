@@ -8,8 +8,34 @@
 <body>
 	<p class="patten">Time Table for TE4</p>
     <hr class="hratten">
-	<?php
+    <?php
 
+		if (isset($_POST['confirm'])) {add();}
+		
+		function add() {
+
+			$user = 'teacher';
+			$pass = 'root';
+			$db = 'students';
+
+			$conn = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect to server".$db);
+
+			$sql = "INSERT INTO `events`(`id`, `date`, `time`, `venue`, `event_name`,`link`) VALUES (".$_POST['EventId'].",".$_POST['date'].",\"".$_POST['time'].":00\",\"".$_POST['venue']."\",\"".$_POST['EventName']."\",\"".$_POST['link  ']."\")";
+
+			if (mysqli_query($conn, $sql)) {
+				echo "Added details, refreshing data...";
+                header("refresh:3;url=http://localhost:8080/college-system/home.php?page=events.php");
+			}
+			else {
+				echo "Error: ".mysqli_error($conn);
+			}
+			mysqli_close($conn);
+        }
+			
+	?>
+    
+	<?php
+	
 		$user = 'student';
 		$pass = 'sakec';
 		$db = 'students';

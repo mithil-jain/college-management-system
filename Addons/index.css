@@ -1,0 +1,83 @@
+body
+{
+	margin:0;
+	padding:0;
+    background-image: url(login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color:red;*/
+}
+.block
+{
+	height:400px;
+    width:300px;
+    background-color: rgba(255,255,255);
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px black;
+    padding:30px;
+}
+.image
+{
+    align-content: center;
+}
+img
+{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    top:-50px;
+    left:35%;
+}
+.form
+{
+    margin-top:50px;
+}
+.formp
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size:20px;
+}
+input[type=text],input[type=password]
+{
+    margin-bottom: 10px;
+    width: 100%;
+    border:0px;
+    border-bottom: 1px solid black;
+    padding:10 0 10 0;
+}
+input[type=submit],input[type=button]
+{
+    box-shadow:2px 2px 1px black;
+    width:100%;
+    margin-bottom: 10px;
+    border-radius:10px;
+    border:none;
+    padding:5px;
+    font-size:15px;
+    background: #ff1a1a;
+    color:black;
+}
+input[type=submit]:hover,input[type=button]:hover
+{
+    background:#ffff1a;
+}
+.forgot
+{
+    margin-top:0px;
+    font-size: 15px;
+}
+form a 
+{
+    text-decoration: none;
+    color:dodgerblue;
+}
+
+.error {
+    color: red;
+}

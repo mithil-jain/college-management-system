@@ -1,0 +1,51 @@
+p.patten
+{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:0;
+    color:#cca300/*,#ffcc00*/;
+    text-shadow: 1px 1px 1px white;
+    text-transform: uppercase;
+}
+hr.hratten
+{
+    width:30%;
+    margin:auto;
+    box-shadow: 1px 1px 1px white;
+}
+
+.table table
+{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow:2px 2px 10px black;
+    background-color:#DCDCDC/*rgba(255,255,255,0.8)*/;
+}
+.table th
+{
+    background-color:#808080;
+}
+.table td,.table th
+{
+    border:1px solid black;
+    padding:5px;
+    text-transform: uppercase;
+}
+.table table tr:hover
+{
+    background-color: white;
+}
+.form {
+	padding: 10px 0px 0px 50px;
+	/*width: 80%*/
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+}

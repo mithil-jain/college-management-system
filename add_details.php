@@ -12,7 +12,7 @@
 			exit("Not enough privilege.");
 		}
 	?>
-	<p class="patten">Add Details</p>
+	<p class="patten">Student List</p><hr class="hratten">
 	<div class="form">
         <div class="formsticky">
 		<form action="" method="POST">
@@ -54,7 +54,7 @@
 
 				mysqli_close($conn);
 
-//				header("refresh:3; url=http://localhost/Git/college-system/home.php?page=list.php");
+				header("refresh:3; url=http://localhost/college-system/home.php?page=list.php");
 			}
 				
 		?>

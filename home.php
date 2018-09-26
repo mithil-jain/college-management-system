@@ -53,6 +53,7 @@
             <div class="asideleft">
                 <ul class="nav">
                     <li><a class="btn <?php if($_GET["page"]==""){echo 'active';}?>" href="home.php">Dashboard</a></li>
+                    <li><a class="btn <?php if($_GET["page"]=="notifications.php"){echo 'active';}?>" href="home.php?page=notifications.php">Notifications</a></li>
                     <li><a class="btn <?php if($_GET["page"]=="attendance.php"){echo 'active';}?>" href="home.php?page=attendance.php">Attendance record</a></li>
                     <li><a class="btn <?php if($_GET["page"]=="assign.php"){echo 'active';}?>" href="home.php?page=assign.php">Assignments</a></li>
                     <li><a class="btn <?php if($_GET["page"]=="events.php"){echo 'active';}?>" href="home.php?page=events.php">Events in college</a></li>

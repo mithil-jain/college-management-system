@@ -23,8 +23,11 @@
 		$row = mysqli_fetch_assoc($data);
         $x=40;
         $y=20;
-		echo'<div class="container">
-                <div class="details">
+		echo'<div class="container">';
+        if ($row['Notifications']!=NULL) {
+            echo "<div class='attendance'><p>Notification: ".$row['Notifications']."</p></div>";
+        }
+                echo'<div class="details">
                     <p>Details:<p>
                     <hr>
                     <ul class="left">
@@ -37,8 +40,9 @@
 				    <li>'.$row["UserId"].'</li>
 				    <li>'.$row["Class"].' - '.$row["Division"].' - '.$row["RollNo"].'</li>
                     </ul>
-                </div>
-                <div class="attendance">
+                </div>';
+        if ($_SESSION['type']!='admin') {
+                echo'<div class="attendance">
                     <p>Attendance:</p>
                     <hr>
                     <table class="tattendance">
@@ -60,8 +64,9 @@
                     echo '
                     </tr>
                     </table>
-                </div>
-                <div class="notification">
+                </div>';
+            }
+                echo '<div class="notification">
                     <p>Assignment:</p>
                     <hr>';
             $user = 'student';
